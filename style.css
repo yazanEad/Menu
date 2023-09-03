@@ -143,54 +143,6 @@ section .lest .food div .MenuFood  p:last-child{
 
 }
 
-
-
-/* Mobile */
-
-@media (max-width: 767px) {
-    section .lest{
-        padding: 20px;
-    }
-    section .lest .food{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    section .lest .food div{
-        width: 100%;
-        height: 340px;
-    }
-    
-}
-
-/* Small Screens */
-
-@media (min-width: 768px) and (max-width: 991px) {
-    section .lest{
-        padding: 30px;
-    }
-    section .lest .food{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    section .lest .food div{
-        width: 100%;
-        height: 340px;
-    }
-    
-}
-
-/* Medium Screens */
-
-@media (min-width: 992px) {
-}
-
-/* Large Screens */
-
-@media (min-width: 1200px) {
-}
-
-
-
 footer{
     
     background-color: #da1305;
@@ -245,6 +197,59 @@ footer .data ul li:hover , footer .data ul li a:hover{
 
 
 
+/* Mobile */
+
+@media (max-width: 767px) {
+    section .lest{
+        width: 100%;
+        padding: 20px;
+    }
+    section .lest .food{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section .lest .food div{
+        width: 100%;
+        height: 340px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column ;
+        justify-content: center;
+        
+    }
+    
+    footer div{
+        width: 100%;
+    }
+}
+
+/* Small Screens */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    section .lest{
+        padding: 30px;
+    }
+    section .lest .food{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section .lest .food div{
+        width: 100%;
+        height: 340px;
+    }
+    
+}
+
+/* Medium Screens */
+
+@media (min-width: 992px) {
+}
+
+/* Large Screens */
+
+@media (min-width: 1200px) {
+}
 
 
 
