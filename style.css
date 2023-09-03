@@ -1,0 +1,397 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    margin: 0;
+}
+
+/* section{
+    background-color: #f1f7f6;
+} */
+section .lest{
+    padding: 120px;
+    background-color: #f1f7f6;
+}
+section .lest .title{
+    text-align: center;
+}
+section .lest .title h1{
+    margin: 0;
+    text-align: center;
+    font-size: 60px;
+    color: #928e8e;
+}
+
+section .lest .title p{
+    width: 40px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: #7a7a7a;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+section .lest .food{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+section .lest .food div{
+    width: calc(95% / 3);
+    height: 340px;
+    color: white;
+    
+    margin: 15px 0;
+    /* background-image: url(https://placehold.co/600x400); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+section .lest .food .soups{
+    /* background-image: url(https://blameda.emenu1.com/wp-content/uploads/2020/11/bs4.jpg); */
+    background-image: url(./soup-2006317_640.jpg);
+}
+section .lest .food .salads{
+    /* background-image: url(https://blameda.emenu1.com/wp-content/uploads/2020/11/bss.jpg); */
+    background-image: url(./salad-1075240_640.jpg);
+}
+section .lest .food .appetizers{
+    /* background-image: url(https://blameda.emenu1.com/wp-content/uploads/2020/11/bb.jpg); */
+    background-image: url(./melanzana-1985391_640.jpg);
+}
+section .lest .food .oven{
+    /* background-image: url(https://blameda.emenu1.com/wp-content/uploads/2020/11/atb.jpg); */
+    background-image: url(./chicken-1001767_640.jpg);
+}
+section .lest .food .grilled{
+    /* background-image: url(https://blameda.emenu1.com/wp-content/uploads/2020/11/mach.jpg); */
+    background-image: url(./barbecue-84671_640.jpg);
+}
+section .lest .food .Western_and_seafood{
+    /* background-image: url(https://blameda.emenu1.com/wp-content/uploads/2020/12/bba8.jpg); */
+    background-image: url(./food-3669925_640.jpg);
+}
+section .lest .food .sweets{
+    /* background-image: url(https://blameda.emenu1.com/wp-content/uploads/2020/12/bd3.jpg); */
+    background-image: url(./cake-1850011_640.jpg);
+}
+section .lest .food .drinks{
+    background-image: url(./Summer-Drinks-14-500x500.jpg);
+}
+section .lest .food .breakfast{
+    /* background-image: url(https://blameda.emenu1.com/wp-content/uploads/2020/11/fot.jpg); */
+    background-image: url(./fot.jpg);
+}
+section .lest .food div .opac{
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+    background-color: #000000;
+    opacity: 0.15;
+}
+
+
+section .lest .food div .MenuFood{
+    width:100%;
+    height: 100%;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+section .lest .food div .MenuFood h2{
+    width: 100%;
+    font-size: 36px;
+    margin: 0px;
+}
+section .lest .food div .MenuFood p{
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    
+}
+section .lest .food div .MenuFood p a{
+    display: block;
+    background-color: #ba0e03;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+section .lest .food div .MenuFood p a:hover{
+    margin-top: 0px;
+    background-color: #6a737e;
+    transition: 0.3s;
+}
+section .lest .food div .MenuFood  p:last-child{
+    width: 40px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: #83d60e;
+
+}
+
+
+
+/* Mobile */
+
+@media (max-width: 767px) {
+    section .lest{
+        padding: 20px;
+    }
+    section .lest .food{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section .lest .food div{
+        width: 100%;
+        height: 340px;
+    }
+    
+}
+
+/* Small Screens */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    section .lest{
+        padding: 30px;
+    }
+    section .lest .food{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section .lest .food div{
+        width: 100%;
+        height: 340px;
+    }
+    
+}
+
+/* Medium Screens */
+
+@media (min-width: 992px) {
+}
+
+/* Large Screens */
+
+@media (min-width: 1200px) {
+}
+
+
+
+footer{
+    
+    background-color: #da1305;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer div{
+    width: calc(100% / 2);
+    color: white;
+    text-align: center;
+}
+footer .logo {
+    margin-top: 30px;
+}
+footer .logo img{
+    width: 300px ;
+    height: auto;
+}
+footer .data{
+    padding-top: 60px;
+}
+footer .data h2{
+    font-size: 36px;
+    margin: 0;
+    margin-right: 45px;
+    
+}
+footer .data ul{
+    
+    font-size: 20px;
+    padding-left: 0;
+    list-style: none;
+}
+footer .data ul li{
+    margin-bottom: 20px;
+}
+
+footer .data ul li i {
+    font-size: 30px;
+    margin-left: 20px;
+}
+footer .data ul li  a{
+    color: white;
+    text-decoration: none;
+}
+footer .data ul li:hover , footer .data ul li a:hover{
+    color: #FFC107;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+===============================================
+==================
+===============================================
+*/
+
+
+
+section .menu div .title_menu{
+    background-color: #ba0e03;
+    padding: 40px;
+    text-align: center;
+}
+section .menu div .title_menu h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+}
+section .menu div  .imges img{
+    width: 100%;
+    height: 50px;
+    color: #c7782b;
+}
+
+
+
+
+
+section .menu  .food_menu{
+    padding: 40px;
+    margin: 0 200px;
+    position: relative;
+    top: -100px;
+    box-shadow: 0 0 10px 1px #d1d1d1;
+    background-color: white;
+}
+section .menu  .food_menu .meal{
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    
+}
+/* .food_menu div img , .food_menu div h3 , .food_menu div p{
+    width: calc(100% / 3);
+} */
+section .menu  .food_menu .meal img{
+    width: 150px;
+    height: 150px;
+    margin: 10px 0;
+    border-radius: 50%;
+    object-fit: cover;
+}
+section .menu  .food_menu .meal .name{
+    width: 50%;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+section .menu  .food_menu .meal .name h3{
+    font-size: 34px;
+    margin: 0;
+}
+section .menu  .food_menu .meal .price{
+    font-size: 30px;
+    font-weight: 500;
+    color: #ba0e03;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile */
+
+@media (max-width: 767px) {
+    section .menu div .title_menu h1{
+        font-size: 50px;
+        font-weight: bold;
+        color: white;
+    }
+    section .menu  .food_menu{
+        padding: 10px;
+        margin: 0 20px;
+    }
+    section .menu  .food_menu .meal img{
+        width: 60px;
+        height: 60px;
+        margin: 5px 0;
+        border-radius: 50%;
+    }
+    section .menu  .food_menu .meal .name h3{
+        font-size: 15px;
+        margin: 0;
+    }
+    
+}
+
+/* Small Screens */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    section .menu div .title_menu h1{
+        font-size: 60px;
+        font-weight: bold;
+        color: white;
+    }
+    section .menu  .food_menu{
+        padding: 40px;
+        margin: 0 50px;
+    }
+    section .menu  .food_menu .meal img{
+        width: 100px;
+        height: 100px;
+        margin: 10px 0;
+        border-radius: 50%;
+    }
+    section .menu  .food_menu .meal .name h3{
+        font-size: 25px;
+        margin: 0;
+    }
+}
+
+/* Medium Screens */
+
+@media (min-width: 992px) {
+}
+
+/* Large Screens */
+
+@media (min-width: 1200px) {
+}

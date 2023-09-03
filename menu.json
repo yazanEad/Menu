@@ -1,0 +1,416 @@
+{
+"menu": {
+    "sections": [
+    {
+        "section_name": "المقبلات",
+        "dishes": [
+        {
+            "dish_name": "حمص",
+            "image": "./hummus-1058000_640.jpg",
+            "description": "مزيج ناعم من الحمص والطحينة وعصير الليمون والثوم. يُقدم مع خبز عربي محمص.",
+            "price": 10
+        },
+        {
+            "dish_name": "متبل الباذنجان",
+            "image": "./chickpea-hummus-rustic-wooden-table.jpg",
+            "description": "باذنجان مشوي مع طحينة وثوم وليمون. يُقدم مع خبز عربي.",
+            "price": 12
+        },
+        {
+            "dish_name": "سمبوسة",
+            "image": "./deep-fried-samosas-with-spicy-chicken-filling-generated-by-ai.jpg",
+            "description": "مقرمشة من الخارج ومحشوة باللحم المفروم والبهارات.",
+            "price": 7
+        },
+        {
+            "dish_name": "كبة",
+            "image": "./plate-naan-with-bowl-cream-fork-side.jpg",
+            "description": "كرات مشوية مصنوعة من لحم الغنم والبرغل المطحون.",
+            "price": 9
+        },
+        {
+            "dish_name": "مكدوس",
+            "image": "./download.jpg",
+            "description": "باذنجان مخلل بنكهات تقليدية عربية وزيت زيتون.",
+            "price": 11
+        }
+        ]
+    },
+    {
+        "section_name": "سلطات",
+        "dishes": [
+            {
+            "dish_name": "سلطة الفتوش",
+            "image": "./5537919031c42718721006187b449530_w750_h750.jpeg",
+            "description": "سلطة عربية تحتوي على الخضار الطازجة مثل الخيار والبندورة والريحان، مع قطع من الخبز المحمص وصلصة اللبن والثوم.",
+            "price": 9
+            },
+            {
+            "dish_name": "سلطة التبولة",
+            "image": "./tabbouleh-4854521_640.jpg",
+            "description": "سلطة لبنانية مشهورة تحتوي على البقدونس والبندورة والنعناع والبرغل مع زيت الزيتون وعصير الليمون.",
+            "price": 8
+            },
+            {
+            "dish_name": "سلطة الزيتون",
+            "image": "./salad-5904093_640.jpg",
+            "description": "سلطة تحتوي على أصناف متنوعة من الزيتون الممزوجة مع الفلفل الحلو والثوم والزعتر.",
+            "price": 7
+            },
+            {
+            "dish_name": "سلطة البطاطس",
+            "image": "./prawn-241048_640.jpg",
+            "description": "سلطة كريمية مصنوعة من البطاطس المسلوقة مع البيض والخردل والمايونيز.",
+            "price": 6
+            },
+            {
+            "dish_name": "سلطة الجرجير",
+            "image": "./capaccio-2726020_640.jpg",
+            "description": "سلطة تحتوي على جرجير طازج مع شرائح البارميزان وصلصة البلسميك.",
+            "price": 8
+            },
+            {
+            "dish_name": "سلطة الفجل",
+            "image": "./salad-2228890_640.jpg",
+            "description": "سلطة تحتوي على شرائح الفجل مع اللبن والثوم والخيار.",
+            "price": 6
+            }
+        ]
+    },
+    {
+        "section_name": "الشوربات",
+        "dishes": [
+        {
+            "dish_name": "شوربة العدس",
+            "image": "./soup-2006317_640.jpg",
+            "description": "شوربة غنية مصنوعة من العدس الأحمر والخضراوات والتوابل.",
+            "price": 8
+        },
+        {
+            "dish_name": "شوربة الدجاج",
+            "image": "./chicken-2030706_640.jpg",
+            "description": "شوربة دجاج طازجة مع الخضار والشعيرية.",
+            "price": 9
+        },
+        {
+            "dish_name": "شوربة الفطر",
+            "image": "./mushroom-soup-6164651_640.jpg",
+            "description": "شوربة كريمية مع فطر طازج وبهارات دافئة.",
+            "price": 7
+        },
+        {
+            "dish_name": "شوربة الخضار",
+            "image": "./vegetable-6322023_640.jpg",
+            "description": "شوربة خضار طازجة مع مكونات موسمية متنوعة.",
+            "price": 7
+        },
+        {
+            "dish_name": "شوربة اللحم",
+            "image": "./dish-6930432_640.jpg",
+            "description": "شوربة لحم طازجة مع الخضار والتوابل الغنية.",
+            "price": 10
+        }
+        ]
+    },
+    {
+        "section_name": "اطباق بالفرن",
+        "dishes": [
+        {
+        "dish_name": "مسخن",
+        "image": "./maxresdefault.jpg",
+        "description": "أطباق بالفرن تحتوي على دجاج مشوي وخبز عربي محمص مع البصل والصنوبر.",
+        "price": 14
+        },
+        {
+        "dish_name": "فطيرة اللحمة",
+        "image": "./foodiesfeed.com_baked-pierogi.jpg",
+        "description": "فطيرة محمصة باللحم المفروم والبهارات التركية",
+        "price": 12
+        },
+        {
+        "dish_name": "منسف",
+        "image": "./9e6d6fc35288bc806524618e35f0d805.jpg",
+        "description": "وجبة أردنية تقليدية تحتوي على لحم الخروف والأرز واللبنة.",
+        "price": 16
+        },
+        {
+        "dish_name": "لحم بالفرن",
+        "image": "./foodiesfeed.com_roasting-meat-with-root-vegetables.jpg",
+        "description": "لحم مشوي بالفرن مع التوابل العربية الغنية.",
+        "price": 18
+        },
+        {
+        "dish_name": "عجة",
+        "image": "./kitchen-775746_640.jpg",
+        "description": "عجة لذيذة مصنوعة من البيض والطماطم والبصل والفلفل الحار.",
+        "price": 9
+        },
+        {
+        "dish_name": "كسكس",
+        "image": "./couscous-945029_640.jpg",
+        "description": "أطباق بالفرن تحتوي على كسكس مع الخضار ولحم الدجاج.",
+        "price": 13
+        }
+    ]
+    },
+    {
+    "section_name": "مشويات",
+    "dishes": [
+        {
+        "dish_name": "شيش طاووق",
+        "image": "./foodiesfeed.com_grilled-skewers.jpg",
+        "description": "قطع دجاج مشوية على أعواد مع الخضار والتوابل.",
+        "price": 15
+        },
+        {
+        "dish_name": "كباب",
+        "image": "./lule-kebab-with-onions-pickles.jpg",
+        "description": "أطباق مشوية تحتوي على كباب لذيذ مع الخضار والأرز.",
+        "price": 14
+        },
+        {
+        "dish_name": "سمك مشوي",
+        "image": "./grill-4709068_640.jpg",
+        "description": "أسماك طازجة مشوية مع التوابل وعصير الليمون.",
+        "price": 17
+        },
+        {
+        "dish_name": "شاورما",
+        "image": "./side-view-doner-pita-with-french-fries-fresh-cucumber-tomato.jpg",
+        "description": "لحم دجاج مشوي مع الصلصات والخضار داخل خبز عربي.",
+        "price": 13
+        },
+        {
+        "dish_name": "كفتة مشوية",
+        "image": "grilled_kofte.jpg",
+        "description": "كفتة لذيذة مصنوعة من لحم البقر مع البصل والبهارات.",
+        "price": 12
+        },
+        {
+        "dish_name": "لحم مشوي",
+        "image": "./foodiesfeed.com_steak-barbecue-close-up.jpg",
+        "description": "أطباق مشوية تحتوي على لحم بقر مشوي مع التوابل.",
+        "price": 19
+        }
+    ]
+    },
+    {
+    "section_name": "اكلات غربية مع بحرية",
+    "dishes": [
+        {
+        "dish_name": "بيتزا مارغريتا",
+        "image": "./margherita_pizza.jpg",
+        "description": "بيتزا كلاسيكية مع صلصة الطماطم والجبن الموزاريلا وأوراق البازيل وزيت الزيتون.",
+        "price": 12.99
+        },
+        {
+        "dish_name": "برجر كلاسيكي",
+        "image": "./classic_burger.jpg",
+        "description": "برجر لذيذ مع شريحة لحم بقرية مشوية وخضار طازجة وصلصة مميزة.",
+        "price": 10.99
+        },
+        {
+        "dish_name": "باستا كريمية بالفطر",
+        "image": "./creamy_mushroom_pasta.jpg",
+        "description": "باستا مغمسة بصلصة كريمية غنية مع شرائح الفطر والثوم والبصل.",
+        "price": 14.99
+        },
+        {
+        "dish_name": "ستيك بيف تندرلوين",
+        "image": "./tenderloin_steak.jpg",
+        "description": "ستيك بقر تندرلوين مشوي بإتقان ومقدم مع صوص مميز وخضار مشوية.",
+        "price": 16.99
+        },
+        {
+        "dish_name": "ساندويتش تركي",
+        "image": "./turkey_sandwich.jpg",
+        "description": "ساندويتش لذيذ مع شرائح لحم ديك رومي مع الخس والطماطم والمايونيز.",
+        "price": 9.99
+        },
+        {
+        "dish_name": "سباغيتي بولونيز",
+        "image": "./spaghetti_bolognese.jpg",
+        "description": "سباغيتي مع صلصة بولونيز اللذيذة والجبن المبشور.",
+        "price": 13.99
+        },
+        {
+        "dish_name": "وجبة الدجاج المقرمش",
+        "image": "./crispy_chicken.jpg",
+        "description": "قطع دجاج مقرمشة مع بطاطس مقلية وصلصة مميزة.",
+        "price": 11.99
+        },
+    {
+        "dish_name": "روبيان مقلي",
+        "image": "./fried_shrimp.jpg",
+        "description": "روبيان مقلي مع قشره المقرمش وصلصة التارتار.",
+        "price": 16.99
+        },
+        {
+            "dish_name": "تاكو السمك",
+            "image": "./fish_tacos.jpg",
+            "description": "تاكوس محشوة بقطع سمك مشوية وخضار مع صلصة الثوم.",
+            "price": 13.99
+        }
+    ]
+    },
+    {
+    "section_name": "الحلويات",
+    "dishes": [
+        {
+        "dish_name": "باكلاوة",
+        "image": "./close-up-view-traditional-turkish-baklava-with-pistachio-black-board.jpg",
+        "description": "حلوى عربية رقيقة مصنوعة من طبقات من العجين والمكسرات مع شراب القطر.",
+        "price": 7
+        },
+        {
+        "dish_name": "كنافة",
+        "image": "./top-view-kunefe-dessert-garnished-with-pistachio-served-with-black-tea.jpg",
+        "description": "حلوى عربية مقرمشة مصنوعة من الكنافة وحشوة الجبنة أو الفستق.",
+        "price": 8
+        },
+        {
+            "dish_name": "قطعة تشيز كيك",
+            "image": "./sweet-berry-cheesecake-slice-with-whipped-cream-indulgence-generated-by-ai.jpg",
+            "description": "قطعة تشيز كيك الكريمي مع قاعدة من البسكويت وصلصة التوت.",
+            "price": 8
+        },
+        {
+        "dish_name": "مهلبية",
+        "image": "./foodiesfeed.com_brazilian-style-caramel-pudding-dessert.jpg",
+        "description": "حلوى حليبية ناعمة مع شراب القطر والمكسرات.",
+        "price": 5
+        },
+        {
+        "dish_name": "تيراميسو",
+        "image": "./layered-chocolate-tiramisu-cake-with-mascarpone-cream-generated-by-ai.jpg",
+        "description": "حلوى إيطالية كلاسيكية تحتوي على القهوة والمربى والمرملادو.",
+        "price": 9
+        },
+        {
+        "dish_name": "بودنغ الرز",
+        "image": "./healthy-eating-starts-with-fresh-organic-oatmeal-generated-by-ai.jpg",
+        "description": "حلوى كريمية مصنوعة من الأرز مع الفانيليا والقرفة.",
+        "price": 6
+        },
+        {
+            "dish_name": "أيس كريم",
+            "image": "./delicious-ice-cream-studio.jpg",
+            "description": "بطعم الشوكولا، فراولة، والفانيلا.",
+            "price": 6
+        }
+    ]
+    },
+    {
+    "section_name": "مشروبات",
+    "dishes": [
+        {
+        "dish_name": "عصير الليمون الطازج",
+        "image":"./Lemonade-Recipe-003 .jpg",
+        "description": "",
+        "price": 4
+        },
+        {
+        "dish_name": "عصير البرتقال",
+        "image": "./orange-1995044_640.jpg",
+        "description": "",
+        "price": 5
+        },
+        {
+        "dish_name": "ماء معدني",
+        "image": "./Polar_miniral_600ml.jpg",
+        "description": "",
+        "price": 2
+        },
+        {
+        "dish_name": "عصير المانجو",
+        "image": "./Mango-Juice-Recipe.jpg",
+        "description": "",
+        "price": 5
+        },
+        {
+            "dish_name": "مشروب برتقال بالفراولة",
+            "image": "./strawberry-orange-juice.jpg",
+            "description": "",
+            "price": 6
+        },
+        {
+            "dish_name": "كوكتيل فاكهة",
+            "image": "./Lebanese-Fruit-Cocktail-19.jpg",
+            "description": "",
+            "price": 7
+        },
+        {
+            "dish_name": "مشروب الجوافة",
+            "image": "./DWELL-how-to-make-guava-juice .jpg",
+            "description": "",
+            "price": 4
+        },
+        {
+            "dish_name": "شاي بالنعناع",
+            "image": "./teacup-with-mint-tea-hero.jpg",
+            "description": "",
+            "price": 3
+        },
+        {
+            "dish_name": "قهوة عربية",
+            "image": "./Qahwa.jpg",
+            "description": "",
+            "price": 4
+        },
+        {
+            "dish_name": "لاتيه بالفانيليا",
+            "image": "./caffee-latte-with-whipped-cream.jpg",
+            "description": "",
+            "price": 5
+        },
+        {
+            "dish_name": "موكا",
+            "image": "./elegant-cappuccino-rustic-wooden-table-close-up-generated-by-ai.jpg",
+            "description": "",
+            "price": 6
+        }
+    ]
+    },
+    {
+    "section_name": "فطور صباحي",
+    "dishes": [
+        {
+        "dish_name": "فول مدمس",
+        "image": "./ful_medames.jpg",
+        "description": "فول مدمس مصنوع من الفول المطهو مع زيت الزيتون والليمون.",
+        "price": 7
+        },
+        {
+        "dish_name": "مناقيش",
+        "image": "./IMG_3465s .jpg",
+        "description": "خبز عربي مع عجة من الزعتر والزيتون والطماطم.",
+        "price": 6
+        },
+        {
+        "dish_name": "بيض مسلوق",
+        "image": "./tbl_articles_article_19966_34310005633-8a52-4939-8441-23d7cc2be187.jpg",
+        "description": "بيض مسلوق مع خبز عربي وزبدة.",
+        "price": 4
+        },
+        {
+        "dish_name": "زبادي بالعسل",
+        "image": "./5730616-520263148.jpg",
+        "description": "زبادي طازج مع عسل ومكسرات.",
+        "price": 5
+        },
+        {
+        "dish_name": "فطائر",
+        "image": "./9bb83b95049704a2ed43b0a91e45411f_w750_h500.jpg",
+        "description": "فطائر طازجة مع عسل وفواكه.",
+        "price": 6
+        }
+    ]
+    }
+]
+}
+}
+
+
+
+
+
